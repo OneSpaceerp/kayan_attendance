@@ -1,0 +1,31 @@
+{
+ "app": "kayan_attendance",
+ "creation": "2026-11-02 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Dock",
+ "idx": 0,
+ "items": [
+  {
+   "added": 0,
+   "hidden": 0,
+   "icon": "kayan-attendance-soft",
+   "link_to": "Kayan Attendance",
+   "link_type": "Sidebar",
+   "title": "Kayan Attendance"
+  },
+  {
+   "added": 0,
+   "hidden": 0,
+   "icon": "kayan-setup-soft",
+   "link_to": "Kayan Attendance Setup",
+   "link_type": "Sidebar",
+   "title": "Kayan Attendance Setup"
+  }
+ ],
+ "modified": "2026-11-02 12:00:00.000000",
+ "modified_by": "Administrator",
+ "name": "kayan_attendance",
+ "owner": "Administrator",
+ "standard": 1,
+ "user": ""
+}

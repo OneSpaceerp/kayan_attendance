@@ -1,0 +1,22 @@
+{
+ "app": "kayan_attendance",
+ "creation": "2026-11-02 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon": "",
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Kayan Attendance Setup",
+ "link_to": "Kayan Attendance Setup",
+ "link_type": "Workspace Sidebar",
+ "logo_url": "/assets/kayan_attendance/images/kayan-attendance-logo.png",
+ "modified": "2026-11-02 12:00:00.000000",
+ "modified_by": "Administrator",
+ "name": "Kayan Attendance Setup",
+ "owner": "Administrator",
+ "parent_icon": "Kayan Attendance",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

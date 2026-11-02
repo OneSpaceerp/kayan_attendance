@@ -1,0 +1,22 @@
+{
+ "aggregate_function_based_on": "",
+ "creation": "2026-11-02 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Employee Checkin",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[[\"Employee Checkin\", \"kayan_auto_checkout\", \"=\", 1], [\"Employee Checkin\", \"time\", \"Timespan\", \"today\"]]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Auto Check-outs Today",
+ "modified": "2026-11-02 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Kayan Attendance",
+ "name": "Auto Check-outs Today",
+ "owner": "Administrator",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}

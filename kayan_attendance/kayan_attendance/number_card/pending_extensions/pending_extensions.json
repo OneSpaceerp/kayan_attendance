@@ -1,0 +1,22 @@
+{
+ "aggregate_function_based_on": "",
+ "creation": "2026-11-02 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Checkin Time Extension",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[[\"Checkin Time Extension\", \"status\", \"=\", \"Open\"], [\"Checkin Time Extension\", \"docstatus\", \"=\", 0]]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Pending Extensions",
+ "modified": "2026-11-02 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Kayan Attendance",
+ "name": "Pending Extensions",
+ "owner": "Administrator",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}

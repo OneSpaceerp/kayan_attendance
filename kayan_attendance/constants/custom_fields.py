@@ -1,0 +1,61 @@
+CUSTOM_FIELDS = {
+    "Employee": [
+        {
+            "fieldname": "kayan_skip_auto_checkout",
+            "label": "Skip Automatic Check-out",
+            "fieldtype": "Check",
+            "insert_after": "attendance_device_id",
+            "description": "The attendance watchdog leaves this employee's open check-ins alone.",
+        },
+    ],
+    "Employee Checkin": [
+        {
+            "fieldname": "kayan_attendance_section",
+            "label": "Kayan Attendance",
+            "fieldtype": "Section Break",
+            "insert_after": "overtime_type",
+            "collapsible": 1,
+            "depends_on": "eval:doc.kayan_auto_checkout || doc.kayan_source_checkin",
+        },
+        {
+            "fieldname": "kayan_auto_checkout",
+            "label": "Automatic Check-out",
+            "fieldtype": "Check",
+            "insert_after": "kayan_attendance_section",
+            "read_only": 1,
+            "in_standard_filter": 1,
+            "no_copy": 1,
+        },
+        {
+            "fieldname": "kayan_checkout_rule",
+            "label": "Check-out Rule",
+            "fieldtype": "Data",
+            "insert_after": "kayan_auto_checkout",
+            "read_only": 1,
+            "no_copy": 1,
+        },
+        {
+            "fieldname": "kayan_column_break",
+            "fieldtype": "Column Break",
+            "insert_after": "kayan_checkout_rule",
+        },
+        {
+            "fieldname": "kayan_source_checkin",
+            "label": "Closes Check-in",
+            "fieldtype": "Link",
+            "options": "Employee Checkin",
+            "insert_after": "kayan_column_break",
+            "read_only": 1,
+            "no_copy": 1,
+        },
+        {
+            "fieldname": "kayan_extension",
+            "label": "Check-in Time Extension",
+            "fieldtype": "Link",
+            "options": "Checkin Time Extension",
+            "insert_after": "kayan_source_checkin",
+            "read_only": 1,
+            "no_copy": 1,
+        },
+    ],
+}

@@ -1,0 +1,19 @@
+{
+ "app": "kayan_attendance",
+ "creation": "2026-11-02 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "App",
+ "idx": 21,
+ "label": "Kayan Attendance",
+ "link": "/desk/kayan-attendance",
+ "link_type": "External",
+ "logo_url": "/assets/kayan_attendance/images/kayan-attendance-logo.png",
+ "modified": "2026-11-02 12:00:00.000000",
+ "modified_by": "Administrator",
+ "name": "Kayan Attendance",
+ "owner": "Administrator",
+ "roles": [],
+ "standard": 1
+}

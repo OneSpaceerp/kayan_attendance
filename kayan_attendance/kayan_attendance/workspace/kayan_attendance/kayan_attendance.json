@@ -1,0 +1,78 @@
+{
+ "app": "kayan_attendance",
+ "charts": [],
+ "content": "[{\"id\": \"kacard0001\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Auto Check-outs Today\", \"col\": 4}}, {\"id\": \"kacard0002\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Extensions\", \"col\": 4}}, {\"id\": \"kacard0003\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Failed Auto Check-outs\", \"col\": 4}}, {\"id\": \"kaspace001\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"kahead0001\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Access</b></span>\", \"col\": 12}}, {\"id\": \"kashort001\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Open Check-ins\", \"col\": 3}}, {\"id\": \"kashort002\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Employee Checkin\", \"col\": 3}}, {\"id\": \"kashort003\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Checkin Time Extension\", \"col\": 3}}, {\"id\": \"kashort004\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Kayan Attendance Settings\", \"col\": 3}}]",
+ "creation": "2026-11-02 12:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "user-check",
+ "idx": 0,
+ "indicator_color": "red",
+ "is_hidden": 0,
+ "label": "Kayan Attendance",
+ "links": [],
+ "modified": "2026-11-02 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Kayan Attendance",
+ "name": "Kayan Attendance",
+ "number_cards": [
+  {
+   "label": "Auto Check-outs Today",
+   "number_card_name": "Auto Check-outs Today"
+  },
+  {
+   "label": "Pending Extensions",
+   "number_card_name": "Pending Extensions"
+  },
+  {
+   "label": "Failed Auto Check-outs",
+   "number_card_name": "Failed Auto Check-outs"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 31.0,
+ "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "",
+   "label": "Open Check-ins",
+   "link_to": "Open Check-ins",
+   "report_ref_doctype": "Employee Checkin",
+   "stats_filter": "",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "",
+   "label": "Employee Checkin",
+   "link_to": "Employee Checkin",
+   "stats_filter": "",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "",
+   "label": "Checkin Time Extension",
+   "link_to": "Checkin Time Extension",
+   "stats_filter": "{\"status\": \"Open\", \"docstatus\": 0}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "",
+   "label": "Kayan Attendance Settings",
+   "link_to": "Kayan Attendance Settings",
+   "stats_filter": "",
+   "type": "DocType"
+  }
+ ],
+ "title": "Kayan Attendance",
+ "type": "Workspace"
+}
